@@ -113,6 +113,18 @@
         .cta button:hover {
             background-color: #5a4e3d;
         }
+
+        /* --- STYLE CLIGNOTANT --- */
+        .clignotant {
+            color: red;             
+            font-weight: bold;      
+            animation: clignoter 1s infinite;
+        }
+
+        @keyframes clignoter {
+            0%, 50%, 100% { opacity: 1; }
+            25%, 75% { opacity: 0; }
+        }
     </style>
 </head>
 
@@ -120,7 +132,7 @@
 
 <header>
     <h1>Solutions Informatiques pour Pharmacies</h1>
-    <p>Optimisez le suivi de vos patients et la gestion de votre officine en déployant, pour vous, LES MEILLEURS AGENTS IA</p>
+    <p>Optimisez le suivi de vos patients et la gestion de votre officine en déployant, pour vous, LES MEILLEURS <span class="clignotant">AGENTS IA</span></p>
 </header>
 
 <nav>
