@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Solutions Informatiques pour Pharmacies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f1e8; /* Beige clair */
+            color: #333;
+        }
+
+        header {
+            background-color: #d8cfc4;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        nav {
+            background-color: #cbbfae;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #6d5f4b;
+        }
+
+        .approche-box {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            margin-top: 20px;
+        }
+
+        .etapes {
+            margin-top: 20px;
+        }
+
+        .etape {
+            margin-bottom: 20px;
+            padding-left: 15px;
+            border-left: 4px solid #cbbfae;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #6d5f4b;
+        }
+
+        footer {
+            background-color: #d8cfc4;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .cta {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .cta button {
+            background-color: #6d5f4b;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .cta button:hover {
+            background-color: #5a4e3d;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Solutions Informatiques pour Pharmacies</h1>
+    <p>Optimisez le suivi de vos patients et la gestion de votre officine</p>
+</header>
+
+<nav>
+    <a href="#approche">Notre Approche</a>
+    <a href="#services">Services</a>
+    <a href="#suivi">Suivi Client</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="approche">
+    <h2>Notre Approche</h2>
+
+    <div class="approche-box">
+        <p>
+            Nous croyons qu’une solution informatique efficace commence toujours par une compréhension fine de votre quotidien. 
+            Notre méthode repose sur l’écoute, l’analyse terrain et des solutions concrètes adaptées à votre officine.
+        </p>
+
+        <div class="etapes">
+
+            <div class="etape">
+                <h3>1️⃣ Audit gratuit – “Vis ma vie de pharmacien”</h3>
+                <p>
+                    Nous vous écoutons attentivement afin de comprendre votre organisation, vos contraintes et vos objectifs. 
+                    Cette immersion nous permet de déceler précisément vos besoins réels.
+                </p>
+            </div>
+
+            <div class="etape">
+                <h3>2️⃣ Solutions pratico-pratiques</h3>
+                <p>
+                    Nous analysons votre situation et revenons vers vous avec des solutions concrètes, simples à mettre en œuvre, 
+                    adaptées à votre réalité terrain et immédiatement efficaces.
+                </p>
+            </div>
+
+            <div class="etape">
+                <h3>3️⃣ Présentation du devis</h3>
+                <p>
+                    Si notre solution retient votre intérêt, nous vous remettons un devis détaillé de prestation de services. 
+                    Nous prenons le temps de vous l’expliquer clairement et vous laissons un délai de réflexion afin que votre décision soit prise en toute sérénité.
+                </p>
+            </div>
+
+            <div class="etape">
+                <h3>4️⃣ Développement & version de test</h3>
+                <p>
+                    Dès signature du devis, nous nous mettons immédiatement au travail pour vous livrer une version de test de notre solution 
+                    dans les meilleurs délais. Vous pouvez ainsi vérifier, tester et valider qu’elle correspond parfaitement à vos attentes.
+                </p>
+            </div>
+
+            <div class="etape">
+                <h3>5️⃣ Livraison finale</h3>
+                <p>
+                    Après avoir recueilli votre validation, nous procédons à la livraison de la version finale complète, 
+                    optimisée et pleinement fonctionnelle, prête à être utilisée dans votre pharmacie.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="services">
+    <h2>Nos Services</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>💻 Installation de Logiciels Métier</h3>
+            <p>Installation et configuration de logiciels de gestion pharmaceutique pour prescriptions, facturation et gestion des stocks.</p>
+        </div>
+
+        <div class="card">
+            <h3>📊 Gestion et Analyse des Données</h3>
+            <p>Mise en place d’outils d’analyse pour mieux comprendre les habitudes d’achat et optimiser les commandes.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔒 Sécurité Informatique</h3>
+            <p>Protection des données patients, sauvegardes automatiques, antivirus et conformité RGPD.</p>
+        </div>
+
+        <div class="card">
+            <h3>☁️ Solutions Cloud</h3>
+            <p>Hébergement sécurisé des données et accès distant aux informations essentielles.</p>
+        </div>
+
+        <div class="card">
+            <h3>📱 Systèmes de Fidélisation</h3>
+            <p>Cartes de fidélité numériques, rappels automatiques de renouvellement d’ordonnance et notifications SMS.</p>
+        </div>
+
+        <div class="card">
+            <h3>🛠️ Maintenance & Support</h3>
+            <p>Assistance technique rapide, maintenance préventive et mise à jour régulière des systèmes.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="suivi">
+    <h2>Amélioration du Suivi Client</h2>
+    <ul>
+        <li>✔ Historique complet des patients</li>
+        <li>✔ Alertes automatiques de renouvellement</li>
+        <li>✔ Gestion simplifiée des traitements chroniques</li>
+        <li>✔ Communication personnalisée avec les clients</li>
+        <li>✔ Statistiques détaillées pour améliorer le service</li>
+    </ul>
+
+    <div class="cta">
+        <button>Demander une Démonstration</button>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email : contact@solutions-pharma-it.fr</p>
+    <p>Téléphone : 01 23 45 67 89</p>
+</section>
+
+<footer>
+    © 2026 Solutions Informatiques pour Pharmacies - Tous droits réservés
+</footer>
+
+</body>
+</html>
