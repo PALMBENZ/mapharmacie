@@ -60,7 +60,7 @@
         }
 
         .etape {
-            margin-bottom: 20px;
+            margin-bottom: 5px;
             padding-left: 15px;
             border-left: 4px solid #cbbfae;
         }
@@ -115,24 +115,43 @@
         }
 
         /* --- STYLE CLIGNOTANT --- */
-        .clignotant {
-            color: red;             
-            font-weight: bold;      
-            animation: clignoter 1s infinite;
-        }
+.clignotant {
+    color: #c0392b;
+    font-weight: bold;
+    animation: clignoter 1.5s ease-in-out infinite;
+}
 
-        @keyframes clignoter {
-            0%, 50%, 100% { opacity: 1; }
-            25%, 75% { opacity: 0; }
-        }
+@keyframes clignoter {
+    0%,100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
+
+/* --- HEADER FLEX AVEC IMAGES --- */
+.header-flex {
+    display: flex;
+    align-items: center;        
+    justify-content: space-between; 
+    padding: 20px;
+    background-color: #d8cfc4;
+}
+
+.header-flex img {
+    max-height: 180px;  
+    width: auto;
+}
+
     </style>
 </head>
 
 <body>
 
-<header>
-    <h1>Solutions Informatiques pour Pharmacies</h1>
-    <p>Optimisez le suivi de vos patients et la gestion de votre officine en déployant, pour vous, LES MEILLEURS <span class="clignotant">AGENTS IA</span></p>
+<header class="header-flex">
+    <img src="Image1.png" alt="Logo gauche" class="logo-left">
+    <div>
+        <h1>Solutions Informatiques pour Pharmacies</h1>
+        <p>Optimisez le suivi de vos patients et la gestion de votre officine en déployant, pour vous, LES MEILLEURS <span class="clignotant">AGENTS IA</span></p>
+    </div>
+    <img src="Image2.png" alt="Logo droite" class="logo-right">
 </header>
 
 <nav>
@@ -154,43 +173,28 @@
         <div class="etapes">
 
             <div class="etape">
-                <h3>1️⃣ Audit gratuit – “Vis ma vie de pharmacien”</h3>
-                <p>
-                    Nous vous écoutons attentivement afin de comprendre votre organisation, vos contraintes et vos objectifs. 
-                    Cette immersion nous permet de déceler précisément vos besoins réels.
-                </p>
+               <strong> 1️⃣ <span class="clignotant">Audit informatique gratuite</span> – “Vis ma vie de pharmacien” : </strong> Nous vous écoutons attentivement afin de comprendre votre organisation, l'état de  l'art, vos contraintes et vos objectifs. Cette immersion nous permet de déceler précisément vos besoins réels, vos points forts, vos points faibles et vos problèmes.
             </div>
 
             <div class="etape">
-                <h3>2️⃣ Solutions pratico-pratiques</h3>
-                <p>
-                    Nous analysons votre situation et revenons vers vous avec des solutions concrètes, simples à mettre en œuvre, 
+                <strong> 2️⃣ Solutions pratico-pratiques : </strong> : Nous menons une analyse approfondie de votre situation et revenons vers vous avec des solutions concrètes, simples à mettre en œuvre, 
                     adaptées à votre réalité terrain et immédiatement efficaces.
-                </p>
             </div>
 
             <div class="etape">
-                <h3>3️⃣ Présentation du devis</h3>
-                <p>
-                    Si notre solution retient votre intérêt, nous vous remettons un devis détaillé de prestation de services. 
+                <strong>3️⃣ Présentation du devis : </strong> Si notre solution retient votre intérêt, nous vous remettons un devis détaillé de prestation de services. 
                     Nous prenons le temps de vous l’expliquer clairement et vous laissons un délai de réflexion afin que votre décision soit prise en toute sérénité.
                 </p>
             </div>
 
             <div class="etape">
-                <h3>4️⃣ Développement & version de test</h3>
-                <p>
-                    Dès signature du devis, nous nous mettons immédiatement au travail pour vous livrer une version de test de notre solution 
-                    dans les meilleurs délais. Vous pouvez ainsi vérifier, tester et valider qu’elle correspond parfaitement à vos attentes.
+                <strong> 4️⃣ Développement & version de test : </strong> Dès signature du devis, nous nous mettons immédiatement au travail pour vous livrer une version de test de notre solution dans les meilleurs délais. Vous pouvez ainsi vérifier, tester et valider qu’elle correspond parfaitement à vos attentes.
                 </p>
             </div>
 
             <div class="etape">
-                <h3>5️⃣ Livraison finale</h3>
-                <p>
-                    Après avoir recueilli votre validation, nous procédons à la livraison de la version finale complète, 
+                <strong> 5️⃣ Livraison finale : </strong> Après avoir recueilli votre validation, nous procédons à la livraison de la version finale complète, 
                     optimisée et pleinement fonctionnelle, prête à être utilisée dans votre pharmacie.
-                </p>
             </div>
 
         </div>
@@ -245,15 +249,12 @@
         <li>✔ Statistiques détaillées pour améliorer le service</li>
     </ul>
 
-    <div class="cta">
-        <button>Demander une Démonstration</button>
-    </div>
 </section>
 
 <section id="contact">
-    <h2>Contact</h2>
-    <p>Email : contact@solutions-pharma-it.fr</p>
-    <p>Téléphone : 01 23 45 67 89</p>
+    <h2>Contact - Demandez une démonstration!</h2>
+    <p>Email : mapharmacie@gmail.com</p>
+    <p>Téléphone : 06 78 31 55 74 - 07 45 54 20 08 </p>
 </section>
 
 <footer>
